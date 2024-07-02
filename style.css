@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.boardGame {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.boardGame td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+}
